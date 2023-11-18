@@ -40,9 +40,9 @@ After minimal Arch install (with grub), clone and execute -
 
 ```shell
 pacman -Sy git
-git clone https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+git clone https://github.com/naruko-hstk/hyprdots ~/Hyprdots
 cd ~/Hyprdots/Scripts
-./install.sh
+./install.sh -drs
 ```
 
 > **Note**

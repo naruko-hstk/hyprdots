@@ -26,6 +26,11 @@ https://github.com/prasanthrangan/hyprdots/assets/106020512/c995699a-299c-4a8e-9
 [<kbd> <br> Top <br> </kbd>](#-design-by-t2)
 </div>
 
+## Warning
+This is a fork from [prasanthrangan](https://github.com/prasanthrangan/hyprdots).  
+I use nvim instead vim and use chrome instead firefox.  
+And add some variable for myself.
+
 ## Installation
 
 The installation script is made for Arch, but **may** work on some Arch based distros.

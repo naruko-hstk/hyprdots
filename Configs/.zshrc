@@ -46,7 +46,7 @@ function in {
 
 # Helpful aliases
 alias  l='eza -lh  --icons=auto' # long list
-alias ls='eza -1   --icons=auto' # short list
+alias ls='eza      --icons=auto --sort=name --group-directories-first' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
 alias ld='eza -lhD --icons=auto' # long list dirs
 alias un='$aurhelper -Rns' # uninstall package
@@ -60,5 +60,12 @@ alias vc='code' # gui code editor
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+[[ $TERM = "xterm-kitty" ]]
+#Display specs
+#neofetch
+
 #Display Pokemon
 pokemon-colorscripts --no-title -r 1,3,6
+
+#Display random gifs
+#kitten icat --align left $(find $HOME/.config/neofetch/gifs/ -name "*.gif" | sort -R | head -1)
